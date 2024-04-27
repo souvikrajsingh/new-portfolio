@@ -14,6 +14,7 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        'hero-pattern': 'url("/assets/overlay.webp")',
       },
       fontSize: {
         'display': ['clamp(2.75rem, 4.25vw, 4.5rem)', {
