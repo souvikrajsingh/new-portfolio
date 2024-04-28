@@ -4,8 +4,9 @@ import Footer from "@/components/Footer/Footer";
 
 export default function Home() {
   return (
-    <div>
+    <div className=" bg-hero-pattern bg-cover bg-center ">
       <HeroSection />
+      <Footer />
     </div>
   );
 }

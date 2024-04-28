@@ -8,7 +8,7 @@ import { GoArrowUpRight } from "react-icons/go";
 
 export default function HeroSection() {
   return (
-    <div className=" min-h-screen w-screen bg-hero-pattern bg-cover bg-center bg-fixed">
+    <>
       <Navbar />
       <div className="flex justify-center gap-x-20 pl-10 2xl:pl-96 pt-12 pr-16 2xl:pr-96 font-cabinG z-10">
         <div className="md:block w-full md:w-2/4 xl:w-9/12 2xl:w-11/12">
@@ -46,7 +46,7 @@ export default function HeroSection() {
           </Link>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 100;
