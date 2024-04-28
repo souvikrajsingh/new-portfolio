@@ -10,12 +10,12 @@ export default function HeroSection() {
   return (
     <>
       <Navbar />
-      <div className="flex justify-center gap-x-20 pl-10 2xl:pl-96 pt-12 pr-16 2xl:pr-96 font-cabinG z-10">
-        <div className="md:block w-full md:w-2/4 xl:w-9/12 2xl:w-11/12">
+      <div className="flex justify-center gap-x-20 2xl:pl-96 pt-12 2xl:pr-96 z-10">
+        <div className=" w-screen sm:w-full xl:w-9/12 2xl:w-11/12">
           <Hero />
         </div>
       </div>
-      <div className="text-start px-14 xl:px-32 2xl:px-96 xl:text-2xl pt-12 font-sans z-10">
+      <div className="text-start px-8 xl:px-32 2xl:px-96  text-base xl:text-2xl pt-12 font-sans z-10">
         About Me
         <div className="pt-5 text-lg  xl:text-sm 2xl:text-lg space-y-8">
           <p>
