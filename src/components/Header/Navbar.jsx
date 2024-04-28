@@ -15,7 +15,7 @@ const Navbar = () => {
           <nav>
             <ul className="flex gap-x-3 2xl:gap-x-5 text-white">
               <li>
-                <a href="/" className=" hover:text-gradient ">
+                <a href="/projects" className=" hover:text-gradient ">
                   Projects
                 </a>
               </li>

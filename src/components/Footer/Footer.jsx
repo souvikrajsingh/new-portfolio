@@ -7,7 +7,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   const links = [
-    { href: "https://twitter.com/souviktwts", text: "X: @souviktwts" },
+    { href: "https://twitter.com/souviktwts", text: "Twitter/X: @souviktwts" },
     {
       href: "https://github.com/souvikrajsingh/",
       text: "Gitub: @souvikrajsingh",
@@ -65,9 +65,8 @@ export default function Footer() {
       </div>
 
       <p className="font-cabinG flex py-6 justify-center text-xs ">
-        Copyright &copy; 2024{" "}
-        <span className="font-bold mx-2 "> souvikrajsingh</span> All Rights
-        Reserved
+        &copy; 2024 <span className="font-bold mx-2 "> souvikrajsingh --</span>{" "}
+        All Rights Reserved
       </p>
     </footer>
   );

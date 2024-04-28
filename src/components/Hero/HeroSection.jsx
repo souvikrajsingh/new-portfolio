@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import Navbar from "@/components/Header/Navbar";
 import { Hero } from "../SVGs/Hero";
@@ -9,9 +8,8 @@ import { GoArrowUpRight } from "react-icons/go";
 export default function HeroSection() {
   return (
     <>
-      <Navbar />
-      <div className="flex justify-center gap-x-20 2xl:pl-96 pt-12 2xl:pr-96 z-10">
-        <div className=" w-screen sm:w-full xl:w-9/12 2xl:w-11/12">
+      <div className="flex justify-center gap-x-20 2xl:px-96 pt-12 z-10">
+        <div className=" w-screen  xl:w-7/12 2xl:w-11/12">
           <Hero />
         </div>
       </div>
