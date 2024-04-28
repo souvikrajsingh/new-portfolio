@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "@/components/Header/Navbar";
 import { Hero } from "../SVGs/Hero";
 import Link from "next/link";
 

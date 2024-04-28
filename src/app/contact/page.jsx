@@ -1,7 +1,9 @@
 "use client";
 import React from "react";
-import Navbar from "@/components/Header/Navbar";
-import Footer from "@/components/Footer/Footer";
+
+import Navbar from "../../components/Header/Navbar";
+import Footer from "../../components/Footer/Footer";
+
 import { GoArrowUpRight } from "react-icons/go";
 import { GoCheckCircle } from "react-icons/go";
 import { useEffect, useState } from "react";

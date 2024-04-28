@@ -30,8 +30,8 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
-                <a href="/blog" className=" hover:text-gradient ">
-                  Blog
+                <a href="/blogs" className=" hover:text-gradient ">
+                  Blogs
                 </a>
               </li>
             </ul>

@@ -1,6 +1,8 @@
 import React from "react";
-import Navbar from "@/components/Header/Navbar";
-import Footer from "@/components/Footer/Footer";
+
+import Navbar from "../../components/Header/Navbar";
+import Footer from "../../components/Footer/Footer";
+
 import { SiNextdotjs, SiContentful, SiVercel, SiPostman } from "react-icons/si";
 import { FaReact, FaGithub, FaGitAlt, FaNodeJs } from "react-icons/fa";
 import {

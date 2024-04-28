@@ -1,9 +1,12 @@
 import React from "react";
-import getContent from "../utils/getContent";
+import Navbar from "../../components/Header/Navbar";
+import Footer from "../../components/Footer/Footer";
+
 export default function page() {
   return (
-    <div>
-      <h1>Title:{}</h1>
+    <div className="h-screen bg-hero-pattern bg-cover bg-center">
+      <Navbar />
+      <Footer />
     </div>
   );
 }
