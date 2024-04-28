@@ -9,7 +9,7 @@ import { GoCheckCircle } from "react-icons/go";
 import { useEffect, useState } from "react";
 import { format } from "date-fns";
 
-export default function page() {
+export default function Page() {
   const [date, setDate] = useState(new Date());
   const [copied, setCopied] = useState(false);
 
