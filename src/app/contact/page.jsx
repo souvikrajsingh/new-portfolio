@@ -4,8 +4,7 @@ import React from "react";
 import Navbar from "../../components/Header/Navbar";
 import Footer from "../../components/Footer/Footer";
 
-import { GoArrowUpRight } from "react-icons/go";
-import { GoCheckCircle } from "react-icons/go";
+import { GoArrowUpRight, GoCheckCircle } from "react-icons/go";
 import { useEffect, useState } from "react";
 import { format } from "date-fns";
 
@@ -50,7 +49,7 @@ export default function Page() {
         <div className="pt-2 text-lg font-sans  xl:text-sm 2xl:text-lg space-y-8">
           <p className="flex relative items-center text-sm xl:text-sm 2xl:text-lg pt-2 text-accent hover:text-primary">
             <span
-              className="underline text-light-gray font-cabinG cursor-pointer hover:underline  xl:text-base"
+              className="underline text-light-gray font-sans cursor-pointer hover:underline  xl:text-base"
               onClick={copyToClipboard}
             >
               souvikrajsingh02@gmail.com
@@ -73,7 +72,7 @@ export default function Page() {
             </span>
           </p>
         </div>
-        <div className=" py-2 xl:py-6">
+        <div className=" py-2 xl:py-6 font-sans ">
           <div suppressHydrationWarning className="text-base pt-8 xl:pt-20">
             {format(date, "MMMM do, yyyy, h:mm:ss a")}
           </div>

@@ -24,7 +24,7 @@ export default function HeroSection() {
               Souvik Raj Singh
             </span>
             , an upcoming Backend Developer Intern over at{" "}
-            <span className="text-light-gray font-semibold"> IbArts </span>!
+            <span className="text-light-gray font-semibold"> IbArts </span>.
             Started off with front-end in tech, but soon realized that the
             backend is where the real magic happens. Trying to get better at
             backend everyday. Currently working on a Full stack Blog post
@@ -76,7 +76,17 @@ export default function HeroSection() {
         </div>
       </div>
       <div className="text-start px-8 xl:px-32 2xl:px-96  text-base xl:text-2xl pt-12 font-sans z-10">
-        Check out my Lastest Project :{")"}
+        Latest Project
+        <div className="pt-5 text-lg  xl:text-sm 2xl:text-lg space-y-">
+          <p className="pb-2 ">
+            <span className="text-light-gray font-semibold">StacksAway</span> is
+            a curated list of programs for Students in Tech starting from
+            hackathons, mentorship programs, fellowship, and all kinds of
+            Student program to enhance the students experience in Tech. The
+            website is built using React js, Tailwind CSS and Contentful CMS for
+            content management.
+          </p>
+        </div>
       </div>
       <CardContainer className="inter-var">
         <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
@@ -91,9 +101,14 @@ export default function HeroSection() {
             translateZ="60"
             className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
           >
-            Curated List of Opportunities for Students in Tech
+            Curated list of programs for Students in Tech
           </CardItem>
-          <CardItem translateZ="100" className="w-full mt-4">
+          <CardItem
+            translateZ="100"
+            rotateX={20}
+            rotateZ={-10}
+            className="w-full mt-4"
+          >
             <Image
               src="/assets/picture.png"
               height="1000"
@@ -105,20 +120,13 @@ export default function HeroSection() {
           <div className="flex justify-between items-center mt-20">
             <CardItem
               translateZ={20}
+              translateX={-40}
               as={Link}
               href="https://www.stacksaway.tech/"
-              target="__blank"
               className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
             >
               Try now →
             </CardItem>
-            {/* <CardItem
-              translateZ={20}
-              as="button"
-              className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
-            >
-              Visit
-            </CardItem> */}
           </div>
         </CardBody>
       </CardContainer>
