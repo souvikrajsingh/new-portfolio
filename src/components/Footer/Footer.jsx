@@ -10,7 +10,7 @@ export default function Footer() {
     { href: "https://twitter.com/souviktwts", text: "Twitter/X: @souviktwts" },
     {
       href: "https://github.com/souvikrajsingh/",
-      text: "Gitub: @souvikrajsingh",
+      text: "GitHub: @souvikrajsingh",
     },
     {
       href: "https://www.linkedin.com/in/souvik-raj-singh-9650bb187/",
@@ -24,7 +24,7 @@ export default function Footer() {
         <div className="pt-5 text-sm font-sans xl:text-sm 2xl:text-lg space-y-5">
           {links.map((link, index) => (
             <Link key={index} href={link.href}>
-              <p className="flex items-center text-sm xl:text-sm 2xl:text-lg pt-2 text-accent hover:text-primary">
+              <p className="flex items-center text-sm xl:text-sm 2xl:text-lg pt-2 text-accent hover:text-light-gray">
                 <span className="underline xl:text-base">{link.text}</span>
                 <span className="group relative overflow-hidden h-fit w-fit ml-2">
                   <GoArrowUpRight
@@ -58,14 +58,32 @@ export default function Footer() {
           </Link>
         </div>
         <div className="flex flex-row justify-end gap-6">
-          <FaGithub size={25} />
-          <FaXTwitter size={25} />
-          <FaLinkedin size={25} />
+          <a
+            href="https://github.com/souvikrajsingh"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub size={25} />
+          </a>
+          <a
+            href="https://twitter.com/souviktwts"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaXTwitter size={25} />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/souvik-raj-singh-9650bb187/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaLinkedin size={25} />
+          </a>
         </div>
       </div>
 
       <p className="font-cabinG flex py-6 justify-center text-xs ">
-        &copy; 2024 <span className="font-bold mx-2 "> souvikrajsingh --</span>{" "}
+        &copy; 2024 <span className="font-bold mx-2"> Souvik Raj Singh --</span>{" "}
         All Rights Reserved
       </p>
     </footer>

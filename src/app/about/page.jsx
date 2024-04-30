@@ -25,14 +25,26 @@ export default function page() {
       <div className="text-start px-8 xl:px-32 2xl:px-96  text-base xl:text-2xl pt-8 xl:pt-6 font-cabinG z-10">
         About Me
         <div className="pt-5 text-lg font-sans  xl:text-sm 2xl:text-lg space-y-8">
+          <p className="pb-2 ">
+            Hey there, I am
+            <span className="text-light-gray font-semibold ml-1">
+              Souvik Raj Singh
+            </span>
+            , an upcoming Backend Developer Intern over at
+            <span className="text-light-gray font-semibold"> IbArts </span>!
+            Started off smitten with front-end in tech, but soon realized that
+            the backend is where the real magic happens.
+          </p>
+          <p className="pb-2">
+            Currently finishing my undergrad in my Computer Science and
+            Engineering degree in Kolkata, I have got a soft spot for dark mode
+            and minimalism. It is like the cozy corner of the internet, you
+            know?
+          </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-            soluta dicta vitae modi laborum enim est voluptate in vel et, iusto
-            iure dolor, provident quas dignissimos ut! Laudantium, dolorem
-            veniam. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptas ducimus sed adipisci animi facilis nisi odit aut reiciendis
-            similique consectetur corporis magni fuga, magnam nemo quae eius rem
-            eum quis.
+            On the lookout for cool opportunities to team up with awesome folks
+            and tackle some exciting projects. If you have got something
+            brewing, I am all ears! Let's chat
           </p>
           <p className="text-2xl font-cabinG">
             This Website is built using: Next js, Redux, TailwindCSS, Contentful

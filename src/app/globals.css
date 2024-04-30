@@ -7,6 +7,13 @@ body{
   color: white;
 }
 
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #0C0D0E;
+    color: white;
+  }
+}
+
 @font-face {
   font-family: 'Cabinet Grotesk';
   src: url('/fonts/CabinetGrotesk-Variable.ttf') format('truetype');
