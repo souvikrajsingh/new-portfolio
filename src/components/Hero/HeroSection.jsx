@@ -136,7 +136,7 @@ export default function HeroSection() {
               href="https://www.stacksaway.tech/"
               className="px-4 py-2 rounded-xl text-xs font-normal font-cabinG font-semibold dark:text-white"
             >
-              Try now →
+              Check Out →
             </CardItem>
           </div>
         </CardBody>

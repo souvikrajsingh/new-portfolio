@@ -62,7 +62,12 @@ export default function page() {
                   Basic Weather App using OpenWeatherMap API and React js
                 </span>
               </div>
-              <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500"></div>
+              <div
+                className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-red-500
+                via-orange-300
+                to-yellow-300
+              "
+              ></div>
             </div>
           </PinContainer>
         </div>
@@ -80,7 +85,12 @@ export default function page() {
                   Curated list of programs for Students in Tech
                 </span>
               </div>
-              <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500"></div>
+              <div
+                className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-red-500
+               via-orange-300
+               to-yellow-300
+              "
+              ></div>
             </div>
           </PinContainer>
         </div>
@@ -99,7 +109,11 @@ export default function page() {
                   Portfolio-The Website you are currently on :{")"}
                 </span>
               </div>
-              <div className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500"></div>
+              <div
+                className="flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-red-500
+               via-orange-300
+               to-yellow-300"
+              ></div>
             </div>
           </PinContainer>
         </div>
