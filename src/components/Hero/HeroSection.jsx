@@ -52,7 +52,7 @@ export default function HeroSection() {
             <span className="text-light-gray font-semibold "> jwt</span> for
             authentication and
             <span className="text-light-gray font-semibold "> Prisma </span> as
-            ORM
+            ORM.
           </p>
         </div>
         <div className="flex flex-row">
@@ -82,9 +82,20 @@ export default function HeroSection() {
             <span className="text-light-gray font-semibold">StacksAway</span> is
             a curated list of programs for Students in Tech starting from
             hackathons, mentorship programs, fellowship, and all kinds of
-            Student program to enhance the students experience in Tech. The
-            website is built using React js, Tailwind CSS and Contentful CMS for
-            content management.
+            Student program to enhance the students experience in Tech. I am a{" "}
+            <span className="text-light-gray font-semibold">
+              Alpha Microsoft Student Ambassador
+            </span>{" "}
+            myself. The website is built using{" "}
+            <span className="text-light-gray font-semibold ">React js, </span>
+            <span className="text-light-gray font-semibold ">
+              Tailwind CSS
+            </span>{" "}
+            and{" "}
+            <span className="text-light-gray font-semibold ">
+              Contentful CMS{" "}
+            </span>{" "}
+            for content management in the backend.
           </p>
         </div>
       </div>
@@ -92,14 +103,14 @@ export default function HeroSection() {
         <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
           <CardItem
             translateZ="50"
-            className="text-xl font-bold text-neutral-600 dark:text-white"
+            className="text-xl font-semibold text-neutral-600 dark:text-white font-cabinG"
           >
             StacksAway
           </CardItem>
           <CardItem
             as="p"
             translateZ="60"
-            className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+            className="text-neutral-500 text-sm max-w-sm mt-2 font-cabinG dark:text-neutral-300"
           >
             Curated list of programs for Students in Tech
           </CardItem>
@@ -123,7 +134,7 @@ export default function HeroSection() {
               translateX={-40}
               as={Link}
               href="https://www.stacksaway.tech/"
-              className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+              className="px-4 py-2 rounded-xl text-xs font-normal font-cabinG font-semibold dark:text-white"
             >
               Try now →
             </CardItem>

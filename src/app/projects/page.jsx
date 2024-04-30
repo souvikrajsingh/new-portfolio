@@ -42,12 +42,12 @@ export default function page() {
           </p>
           <p>
             Meanwhile check out these two proeject, latest being{" "}
-            <span className="text-light-gray font-semibold "> StacksAway</span>
+            <span className="text-light-gray font-semibold "> StacksAway</span>.
           </p>
         </div>
       </div>
 
-      <div className="flex justify-center mr-96 flex-col md:flex-row ">
+      <div className="flex justify-center mr-96 flex-col font-cabinG md:flex-row ">
         <div className="h-[30rem] w-full flex items-center justify-center mr-[30rem]  ml-[12rem] md:mx-[10rem] lg:ml-[50rem]">
           <PinContainer
             title="weather-app-bbit.vercel.app"
