@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Souvik | Portfolio",
-  description: "Souvik Raj Singh is a Full Stack Developer based in India. Here you can find his projects, blogs, and contact information. Check out StacksAway his latest project!",
+  description: "Souvik Raj Singh is a Software Developer and a Microsoft Learn Student Ambassador based in India  Here's everything you need to know about him.",
 };
 
 export default function RootLayout({ children }) {
